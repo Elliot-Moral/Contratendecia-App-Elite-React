@@ -1,12 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bueno este proyecto esta basado para satisfacer la necesidad de transmitir la iniciativa de elite juridica financier, el cual es un portal web llamado contratendencia en donde se lleva la gestion de activos de los clientes y personas intersadas en el mundo de las inversiones, los textos esta hechos con la ayuda de la ia asi como las imagenes, el diseño es propio y codificado con las mejores practicas de desarrollo, se espera que las personas aprendas sobre esas empresas que son la contratendencia de las inveriones a largo plazo que en la actualidad se estan acomodando.              
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+se espera usar api, consumir los datos por api, usar php como legaje de backend realizar los cruds correspondientes.
