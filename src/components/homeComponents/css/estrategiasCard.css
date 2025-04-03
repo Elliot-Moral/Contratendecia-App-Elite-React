@@ -1,0 +1,51 @@
+.estrategias__card__item{
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    color: var(--text-color);
+}
+.estrategias__card__info{
+    padding: 8px;
+}
+
+
+/* ====== modales ========= */
+
+.estrateias__UnderCard{
+    display: none;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 20;
+    background-color: #46464690;
+    padding: 2rem;
+    top: 400px;
+    left: 0;
+    transform: translateY(-50%);
+}
+.estategias__contentModal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+.estrategias__childerModal{
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 15px;
+}
+.underCardActivo{
+    display: block;
+}
+
+@media screen and (min-width: 768px){
+    
+    .estrateias__UnderCard{
+        top: 350px;
+    }
+    .estategias__contentModal{
+        width: 70%;
+        margin: auto;
+    }
+}

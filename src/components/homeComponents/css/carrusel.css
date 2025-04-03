@@ -1,0 +1,53 @@
+.carrusel__content{
+    margin-top: 2rem;
+    background-color: var(--first-color);
+    padding: 30px 28px 30px 40px;
+    border-radius: 20px;
+    color: #fff;
+    position: relative;
+    h2{
+        margin-bottom: 10px;
+    }
+}
+
+.btn_uno, .btn_dos{
+    position: absolute;
+    padding: 5px;
+    border-radius: 50%;
+    width: 28px;
+    height: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+.btn_uno{
+    left: 2px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.btn_dos{
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+@media screen and (min-width: 768px){
+    .carrusel__content{
+        padding: 30px 60px 30px 80px;
+    }
+    .btn_uno{
+        left: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .btn_dos{
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .btn_uno:hover, .btn_dos:hover {
+        background-color: #fff;
+    }
+}

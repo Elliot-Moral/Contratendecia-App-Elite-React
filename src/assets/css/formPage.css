@@ -1,0 +1,42 @@
+.container__form{
+    background-color: rgb(95, 48, 177);
+    margin-top: -64px;
+    padding: 0;
+    padding-bottom: 2rem;
+}
+.form{
+    width: 70%;
+    margin: auto;
+    background-color: azure;
+    padding: 4rem;
+    border-radius: 15px;
+}
+.center_title{
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 1rem;
+    color: azure;
+}
+.content__input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    label{
+        margin-bottom: .75rem;
+    }
+}
+.w-full{
+    margin-top: 1rem;
+    background-color: var(--first-color);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 15px;
+}
+.content__radioBtns{
+    display: flex;
+    flex-direction: column;
+}
+.textInput{
+    border-bottom: 1px solid var(--first-color);
+    background-color: transparent;
+}
